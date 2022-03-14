@@ -1,3 +1,4 @@
+// The formula for calculating rune requirements is only accurate after level 12
 const requirements = [0, 673, 689, 706, 723, 740, 757, 775, 793, 811, 829, 847];
 
 export function calculateLevel(level: number): number {
